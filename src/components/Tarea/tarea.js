@@ -5,7 +5,7 @@ function Tarea({ /*QUE VA? }*/ }) {
 
   return (
     <div>
-      <p></p>
+      
     </div>
   );
 }
