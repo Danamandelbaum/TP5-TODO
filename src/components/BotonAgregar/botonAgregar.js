@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './botonAgregar.css';
-import App from './App.js';
 
 const BotonAgregar = ({lista, setLista}) => {
   const [nuevaActividad, setNuevaActividad] = useState('');

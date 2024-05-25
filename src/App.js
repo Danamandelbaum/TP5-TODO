@@ -8,9 +8,9 @@ const App = () => {
   const [lista, setLista] = useState([]);
   return (
     <div className="App">
-      <BotonAgregar />
-      <Listado lista={lista} />
-      <BotonCalcular />
+      <BotonAgregar lista={lista} setLista={setLista}/>
+      <Listado lista={lista}/>
+      <BotonCalcular lista={lista}/>
     </div>
   );
 };

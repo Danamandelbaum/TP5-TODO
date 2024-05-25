@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './botonCalcular.css';
-import App from './App.js';
 
 const BotonCalcular = ({lista}) => {
     const calcular = () => {
