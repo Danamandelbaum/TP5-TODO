@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TP5-TODO/static/css/main.de9ffb3d.css",
+    "main.js": "/TP5-TODO/static/js/main.ba018603.js",
+    "static/js/453.37753ddd.chunk.js": "/TP5-TODO/static/js/453.37753ddd.chunk.js",
+    "index.html": "/TP5-TODO/index.html",
+    "main.de9ffb3d.css.map": "/TP5-TODO/static/css/main.de9ffb3d.css.map",
+    "main.ba018603.js.map": "/TP5-TODO/static/js/main.ba018603.js.map",
+    "453.37753ddd.chunk.js.map": "/TP5-TODO/static/js/453.37753ddd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de9ffb3d.css",
+    "static/js/main.ba018603.js"
+  ]
+}
