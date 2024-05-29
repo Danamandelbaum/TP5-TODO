@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <BotonAgregar lista={lista} setLista={setLista}/>
-      <Listado lista={lista}/>
+      <Listado lista={lista}  setLista={setLista}/>
       <BotonCalcular lista={lista}/>
     </div>
   );

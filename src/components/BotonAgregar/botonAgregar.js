@@ -6,14 +6,16 @@ const BotonAgregar = ({lista, setLista}) => {
   const loguear = (e) =>{
     setNuevaActividad(e.target.value);
   }
-  const agregar = (nuevaActividad) => {
+  const agregar = () => {
     setLista(
+      [
       ...lista,
       {
-        actividad,
+        actividad: nuevaActividad,
         tachado: false,
         timestamp: new Date(),
       }
+      ]
     )
     setNuevaActividad('');
   }
@@ -22,7 +24,6 @@ const BotonAgregar = ({lista, setLista}) => {
     <div>
       <input 
         type="text" 
-        value={nuevaActividad}
         onChange={loguear}
       />
       <button onClick={agregar}>Agregar</button>
